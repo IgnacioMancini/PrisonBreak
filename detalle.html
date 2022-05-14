@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Capitulo 1 - Prison Break</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="contenedor">
+            <header>
+
+                <a href="index.html"><img id="logo2" src="img/logo2.png" alt="LogoPB" title="Logo de Prison BreakS"/></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" title="Reseña Prison Break">Reseña</a></li>
+                        <li><a href="index.html" title="Capitulos Prison Break">Capitulos</a></li>
+                        <li><a href="index.html" title="Opiniones acerca de Prison Break">Opiniones</a></li>
+                    </ul>
+                </nav>             
+            </header>
+            <main>
+                <div id="sliderDetalles">
+                    <div id="contSlider">
+                        <h1>Piloto</h1>
+                        <h2>Capitulo 1</h2>
+                        <p>Temporada 1</p>
+                    </div>
+                </div>
+
+                <section id="resumen">
+                    <h1>Resumen</h1>
+                    <article>
+                        <img id="fotoResumen" src="img/episode1.jpg" alt="S01E01 Prison Break" title="Wallpaper Episodio 1 - Prison Break"/>
+                        <div id="textoResumen"> 
+                            <div id="duracion">
+                                <a><img src="img/reloj.png" alt="Duracion" id="reloj"/>45 minutos</a>
+                            </div>  
+                            <p id="director">Paul Scheuring</p>
+                            <p>Mike roba un banco y la policía lo detiene en medio de la operación. Sin resistirse, lo llevan a una prisión preventiva. Durante el juicio, 
+                                la juez le sentencia a cinco años y dado que no tiene antecedentes y accediendo a su petición, lo envían a una cárcel cercana a Chicago, 
+                                Fox River State Penitenciary, casualmente la misma en la que está su hermano, algo que todavía nadie sabe.
+                                Michael tiene su primer encontronazo momentos después de ingresar en prisión con uno de los guardas, quien rápidamente descubre que Michael no es un preso al uso.
+                                El guarda echa un vistazo a la ficha de Michael, en la que pone que es diabético.
+                                En el patio de la cárcel, Michael contempla los detalles de la prisión. Su compañero de celda, Sucre, le habla de Lincoln Burrows, 
+                                el preso que espera en el corredor de la muerte su sentencia. Michael confiesa a Sucre que Lincoln es su hermano.
+                                El hijo de Lincoln es detenido por posesión de marihuana. Después de su detención, su madre, Lisa, que está casada con otro hombre, 
+                                cree que es momento de que su hijo haga una visita a su padre, condenado a muerte. Lisa cree que su hijo quedará impactado tras una visita a la cárcel.</p>
+
+                        </div>
+                        <div>
+                            <table>
+                                <caption>Ranking Espectadores</caption>                           
+                                <tr>
+                                    <td>1º</td>
+                                    <td>Piloto</td>
+                                    <td>100.000</td>
+                                </tr>
+                                <tr>
+                                    <td>2º</td>
+                                    <td>Allen</td>
+                                    <td>88.116</td>
+                                </tr>
+                                <tr>
+                                    <td>3º</td>
+                                    <td>La prueba del Movil</td>
+                                    <td>85.753</td>
+                                </tr>
+                                <tr>
+                                    <td>4º</td>
+                                    <td>Lindo veneno</td>
+                                    <td>80.890</td>
+                                </tr>
+                                <tr>
+                                    <td>5º</td>
+                                    <td>English, Fitz or Percy</td>
+                                    <td>78.356</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </article>
+                </section>
+
+                <section id="galeria">
+                    <h1>GALERÍA</h1>
+                    <div id="contGaleria">
+                        <figure class="galeria">
+                            <a target="_blank" href="img/PB1.jpg">
+                                <img src="img/PB1.jpg" alt="Fox River Prison Break" title="Fox River"/>
+                            </a>
+                        </figure>
+                        <figure class="galeria">
+                            <a target="_blank" href="img/PB2.jpg">
+                                <img src="img/PB2.jpg" alt="Michael Scofield en Fox River" title="Michael Scofield"/>
+                            </a>
+                        </figure>
+                        <figure class="galeria">
+                            <a target="_blank" href="img/PB3.jpg">
+                                <img src="img/PB3.jpg" alt="Scofield y Sucre en patio de Fox River" title="Michael Scofield y Sucre"/>
+                            </a>
+                        </figure>
+                        <figure class="galeria">
+                            <a target="_blank" href="img/PB4.jpg">
+                                <img src="img/PB4.jpg" alt="Lincoln Burrows en iglesia" title="Lincoln Burrows"/>
+                            </a>
+                        </figure> 
+                    </div>
+                </section>
+
+                <section id="formulario">
+                    <h1>TU OPINIÓN</h1>
+                    <form action="detalle.html" method="GET">                    
+                        <div id="form1">
+                            <label for="nombre">Nombre Completo</label><br>
+                            <input id="nombre" name="nombre" type="text" placeholder="Escriba su nombre" required>
+                            <br>
+
+                            <label for="pais">Pais</label><br>
+                            <input list="listaPaises" id="pais" name="pais" placeholder="Seleccione su pais" required>
+                            <datalist id="listaPaises">
+                                <option value="Uruguay">
+                                <option value="Argentina"> 
+                                <option value="Brasil">
+                                <option value="Chile"> 
+                                <option value="Paraguay">     
+                            </datalist>
+                            <br>
+
+                            <label for="personaje">Personaje preferido</label><br>
+                            <input id="personaje" name="personaje" type="text" placeholder="Personaje preferido" required>
+                            <br>
+                        </div>
+
+                        <div id="form2">
+                            <label for="txtMsj">Mensaje</label><br>
+                            <textarea id="txtMsj" name="txtMsj">
+                            </textarea><br> 
+                            <input id="smtForm" type="submit" value="Publicar">
+                        </div>                                          
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <div id="derechos">
+                    <p>Prison Break | 2020 Todos los derechos reservados</p>  
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#"><img src="img/logoig.png" alt="LogoIG" title="Logo Instagram"/></a></li>
+                        <li><a href="#"><img src="img/logotw.png" alt="LogoTW" title="Logo Twitter"/></a></li>
+                        <li><a href="#"><img src="img/logofb.png" alt="LogoFB" title="Logo Facebook"/></a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>
